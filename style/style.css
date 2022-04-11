@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E7ECAF;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    width: 50%;
+}
+
+.navBar{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+
+}
+
+.navBar ul li{
+        list-style-type: none;
+        display: inline;
+        justify-items: center;
+        padding:10px;
+}
+
+.tittle{
+    display: flex;
+    flex-flow: column;
+    padding: 10px 100px 10px 100px;
+    margin: 10px;
+    align-items: center;
+}
+
+.foot{
+    display: flex;
+    padding: 20px;
+    font-size: small;
+    justify-content: center;
+    flex-flow: nowrap;
+}
+
+.foot ul {
+    display: flex;
+    list-style: none;
+  }
+
+.foot ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.tittleItem{ 
+
+}
+
+/* Index */
+
+#indexContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    justify-items: center;
+}
+
+/* Espacios */
+
+.flexEspacios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#galery{
+/*     display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-self: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 950px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 100px;
+    justify-items: center;
+    }
+
+.espaciosPic{
+    width: 300px;
+    height: 300px;
+}
+
+/* .espaciosPic:hover{
+    width: 500px;
+    height: 500px;
+} */
+
+/* Media queries */
+
+@media only screen and (max-width: 576px) {
+        /* Espacios */
+   
+    
+    #galery{
+            display: grid;
+            grid-template-columns: auto;
+            }
+  }
+  

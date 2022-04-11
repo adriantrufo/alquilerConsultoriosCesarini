@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/epsilon00logo.jpg" alt="logo epsilon" width="200" height="100">
+         </div>
+         <nav class="navBar">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./espacios.html">Espacios</a></li>
+                    <li><a href="./planes.html">Planes</a></li>
+                    <li><a href="./carrito.html">Carrito</a></li>
+                 <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+
+    <main>
+        <div class="tittle">
+            <h2>Escribinos para reservar tu espacio</h2>
+        </div>
+        <form action="">
+            <fieldset>
+                <legend>Completa el formulario y te contactamos</legend>
+                <fieldset>
+                    
+                        <legend>Datos personales</legend>
+                        <br>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" required>
+                        <br>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" required>
+                        <br>
+                        <label for="correo">Email</label>
+                        <input type="email" name="correo">
+                        <br>
+                        <label for="tel">Numero de celular</label>
+                        <input type="tel" name="tel" required>
+                        <br>
+                        <p>Profesión</p>
+                        <select name="profesion">
+                            <option disabled selected value>-- elija una opción --</option>
+                            <option value="psi" >Psicología</option>
+                            <option value="psi">Psiquiatría</option>
+                            <option value="psi">Psicopedagogía</option>
+                            <option value="psi">Coaching</option>
+                            <option value="psi">Counselor</option>
+                            <option value="nut">Nutrición</option>
+                            <option value="fon">Fonoaudiología</option>
+                            <option value="abo">Abogacía</option>
+                            <option value="pro">Profesor</option>
+                            <option value="hom">Home Office</option>
+                            <option value="oth">Otros</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Contanos de tu reserva</legend>
+                        <p>Que día querés reservar? Si querés un pack de horas, seleccioná la fecha del primer día de uso</p>
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" required>
+                        <br>
+                        <br>
+                        <p>Querés adquirir un pack de horas?</p>
+                        <label for="pack">Horas individuales</label>
+                        <input type="radio" name="pack" id="pack">
+                        <br>
+                        <label for="pack">Pack de horas</label>
+                        <input type="radio" name="pack" id="hora">
+                    </fieldset>
+                    <br>
+                    <br>
+                    <input type="reset" value="Empezar de nuevo" />
+                    <br>
+                    <input type="submit" value="Enviar" />
+            </fieldset>
+        </form>
+    </main> 
+
+
+
+    <div>
+        <h3>Donde estamos</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9565.411625786286!2d-58.47077032807683!3d-34.56348094199854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6800d70db7f%3A0x6a3a89ae17da0ec0!2sEpsilon!5e0!3m2!1ses-419!2sar!4v1647133143819!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+    </div>
+    
+    <footer class="foot">
+        <ul>
+            <li><a href="https://instagram.com/epsilonespacios?utm_medium=copy_link" target="_blank">Instagram</a></li>
+            <li>Epsilon Espacios Profesionales - Monroe 28xx, Belgrano, CABA</li>
+        </ul>
+    </footer>
+</body>
+</html>
