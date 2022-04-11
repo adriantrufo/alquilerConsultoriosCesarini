@@ -3,10 +3,16 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color:inherit;
+  }
+
 body{
     background-color: #E7ECAF;
     font-family: 'Dosis', sans-serif;
     text-align: center;
+    list-style-type: none;
 }
 
 .logo{
@@ -26,7 +32,18 @@ body{
         display: inline;
         justify-items: center;
         padding:10px;
+        background: #E7ECAF;
+        text-align: center;
+        border: 0;
+        transition: all 0.3s ease 0s;
+        
 }
+
+.navBar ul li:hover{
+   background: #737555;
+  }
+
+
 
 .tittle{
     display: flex;
