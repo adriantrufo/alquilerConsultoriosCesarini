@@ -1,113 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Epsilon Espacios Profesionales</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    
-    <link rel="stylesheet" href="style/css/style.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap" rel="stylesheet"> 
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Epsilon - Espacios Profesionales</title>
+  <meta name="description" content="Sitio de Espacios Profesionales Epsilon, podras consultar precios y alquilar consultorios y oficinas">
+  <meta name="keywords" content="ALQUILER, CONSULTORIO, OFICINA, HOMEOFFICE, PSICOLOGIA, ABOGADO, FONOAUDIOLOGIA, BELGRANO, CABA">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <header>
-       <div class="logo">
-           <img src="./img/epsilon00logo.jpg" alt="logo epsilon" width="200" height="100">
-        </div>
-<!--         <nav class="navBar">
-            <div>
-                <ul>
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./secciones/espacios.html">Espacios</a></li>
-                    <li><a href="./secciones/planes.html">Planes</a></li>
-                    <li><a href="./secciones/servicios.html">servicios</a></li>
-                    <li><a href="./secciones/contacto.html">Contacto</a></li>
-                </ul>
-        
-            </div>
-        </nav> -->
 
-        <nav class="navbar navbar-expand-md navbar-light navBar">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ms-auto">
-                 <li class="nav-item">
-                      <a class="nav-link text-dark" href="./index.html">Inicio</a>
-                    </li>
-                  <li class="nav-item">
-                      <a class="nav-link text-dark" href="./secciones/espacios.html">Espacios</a>
-                    </li>
-                  <li class="nav-item">
-                      <a class="nav-link text-dark" href="./secciones/planes.html">Planes</a>
-                    </li>
-                  <li class="nav-item">
-                      <a class="nav-link text-dark" href="./secciones/servicios.html">servicios</a>
-                    </li>
-                  <li class="nav-item">
-                      <a class="nav-link text-dark" href="./secciones/contacto.html">Contacto</a></li>
-                </ul>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><!-- <a href="index.html">Epsilon</a> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logoEpsilon.png" alt="" class="img-fluid"></a>
+    </h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="secciones/services.html">Servicios</a></li>
+          <li><a href="secciones/portfolio.html">Espacios</a></li>
+          <li><a href="secciones/pricing.html">Planes</a></li>
+          <li><a href="secciones/contact.html">Contacto</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide01.png)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Bienvenidos a <span>Epsilon</span></h2>
+              <h1 class="animate__animated animate__fadeInUp">Alquiler de espacios profesionales. </h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide03.png)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Oficinas y consultorios Epsilon</h2>
+              <p class="animate__animated animate__fadeInUp">Espacios amplios, confortables, para que te desarrolles profesionalmente.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <h2>Consultorios y
+               gabietes</h2>
+            <h3>Espacios de trabajo para profesionales</h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Tenemos más de 10 años trabajando el rubro. Ofrecemos espacios ámplios, luminosos e insonorizados, como así también una cálida atención. Es un negocio familiar que apunta a crear una atmósfera de trabajo amena y solidaria entre quienes la componen.
+            </p>
+<!--             <ul>
+              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
+              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
+            </ul>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p> -->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box">
+              <i class="bi bi-door-closed"></i>
+              <h4><a href="#">Oficinas insonorizadas</a></h4>
+              <p>Las paredes estan especialmente preparadas con lana de vidrio en su interior, optimizando así la privacidad y el confort</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-vector-pen"></i>
+              <h4><a href="#">Habilitación del ministerio de salud</a></h4>
+              <p>Epsilon cuenta con la habilitación del ministerio para poder trabajar con todas las obras sociales</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-wifi"></i>
+              <h4><a href="#">WiFi</a></h4>
+              <p>Conexión de internet de alta velocidad, ideal para trabajos online, sesiones por zoom y videollamadas</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-cup"></i>
+              <h4><a href="#">Office con kitchenette</a></h4>
+              <p>Espacio para los profesionales, ideal relajar, comer algo y prepararte una infusión</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-door-open"></i>
+              <h4><a href="#">Sala de espera</a></h4>
+              <p>Espacio ámplio, amoblado, para que tus clientes y pacientes puedan esperar dentro del establecimiento</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-snow"></i>
+              <h4><a href="#">Calefacción y aire acondicionado</a></h4>
+              <p>Cada consultorio cuenta con estufa individual y ventilador. La sala de espera cuenta con un aire acondicionado que refrigera todo el establecimiento</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+<!--         <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div> -->
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/consul01puerta.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Consultorio 1</h4>
+                <!-- <p>Web</p> -->
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/consul01inside.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Consultorio 1"><i class="bx bx-plus"></i></a>
+<!--                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
               </div>
             </div>
-          </nav> 
+          </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </header>
-        <div>
-            <main id="indexContainer">
-                <div class="tittle">
-                    <h2 class="titleItem">Alquiler de oficinas y consultorios</h2>
-                    <p class="titleItem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum velit eaque. Illum atque doloribus eius vero perferendis eos dolorum autem cumque distinctio totam, deleniti molestiae dolorem sapiente amet accusantium.</p>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/consul02puerta.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Consultorio 2</h4>
+              <!--   <p>Web</p> -->
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/consul02inside.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Consultorio 2"><i class="bx bx-plus"></i></a>
+<!--                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
+              </div>
+            </div>
+          </div>
 
-                <div class="tour">
-                    <h3>Hace un recorrido</h3>
-                    <a href="./secciones/espacios.html"><img src="./img/epsilon01.jpg" alt="foto bienvenida puerta" width="320" height="240"></a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/consul03puerta.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Consultorio 3</h4>
+<!--                 <p>Web</p>
+ -->                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/consul03inside.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Consultorio 3"><i class="bx bx-plus"></i></a>
+<!--                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
-                <div class="map">
-                    <h3>Donde estamos</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9565.411625786286!2d-58.47077032807683!3d-34.56348094199854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6800d70db7f%3A0x6a3a89ae17da0ec0!2sEpsilon!5e0!3m2!1ses-419!2sar!4v1647133143819!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                
-                <a href="https://api.whatsapp.com/send?phone=5491162800110&text=Hola, quisiera reservar un consultorio." class="float" target="_blank">
-                <i class="fa fa-whatsapp my-float"></i>
-                </a>
-        </main>
-        <footer class="foot">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Epsilon</h3>
+              <p>Monroe 2887
+                 <br>
+                Belgrano, CABA<br><br>
+                <strong>Tel:</strong> +54 11 ️5967-7561<br>
+                <strong>Email:</strong> espaciosepsilon@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+<!--                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+                <a href="https://es-la.facebook.com/epsilonespaciosprofesionales/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/epsilonespacios/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+<!--                 <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+ -->              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Mapa del sitio</h4>
             <ul>
-                <li><a href="https://instagram.com/epsilonespacios?utm_medium=copy_link" target="_blank">Instagram</a></li>
-                <li>Epsilon Espacios Profesionales - Monroe 28xx, Belgrano, CABA</li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Espacios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Planes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contacto</a></li>
             </ul>
-        </footer>
+          </div>
+
+        </div>
+      </div>
     </div>
 
+    <div class="container">
+      <div class="credits">
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
